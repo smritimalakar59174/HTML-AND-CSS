@@ -1,0 +1,98 @@
+#headerSection{
+@media screen and (max-width: width 200px;){
+    #headerSection header{
+        width: 90%;
+        margin:10px;
+        background-color:white;
+        color:black;
+
+    }
+    .headertext{
+        font-size:1.5em;
+    }
+}
+
+}
+#headerSection header{
+    height:100px;
+    width:90%;
+    border:2px  green;
+    border-radius: 1pc;
+    margin:40px;
+    margin-left:60px ;
+    background: url(../images/zensar.jpg);
+   background: url(../images/zensar.jpg) no-repeat hsla(55,16%,53%,0.8);
+}
+.headertext{
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 16px 10px 1 #aa5500;
+    
+}
+
+    nav ul li a{
+        text-decoration:none ;
+    
+}
+#headerSection nav{
+    height:70px;
+    width:90%;
+    border:2px solid white;
+    margin:40px;
+    margin-left:60px ;
+    margin-top: 0px;
+    background: linear-gradient(to bottom, darkgray,black);
+}
+
+
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    background:linear-gradient(to bottom, blue, black);
+}
+nav ul li a:hover{
+    border:2px solid white ;
+}
+#login{
+    text-decoration: underline;
+}
+nav ul li:last-of-type{
+    margin-left: 550px;
+}
+nav ul li:nth-child(4n){
+    margin-left: 550px;
+}#main aside{
+    
+
+     height: 200px;
+    width:25%;
+    margin-left: 50px;
+    float: left;
+    background: linear-gradient(to bottom, blue,black);
+}
+#main article{
+    border:2px solid darkseagreen;
+    height: 200px;
+    width:70%;
+    margin-left: 50px;
+    text-align: left;
+    font-size: large;
+    column-count:3;
+    background: url(../images/article.jpg);
+    background: url(../images/article.jpg) top repeat;
+}
+
+
+#footerSection{
+    border: blue;
+    margin-top:50px ;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 40px;
+    text-align: right;
+    text-decoration-color: coral;
+    font-size: x-large;
+    background: linear-gradient(to bottom,darkseagreen, black);
+}

@@ -1,0 +1,57 @@
+#headerSection{
+    @media screen and (max-width: width 200px;){
+        #headerSection header{
+            width: 90%;
+            margin:10px;
+            background-color:white;
+            color:black;
+    
+        }
+        .headertext{
+            font-size:1.5em;
+        }
+    }
+    
+    }
+   
+    #headerSection nav{
+        height:70px;
+        width:90%;
+        border:2px solid white;
+        margin:40px;
+        margin-left:60px ;
+        margin-top: 0px;
+        background: radial-gradient(white, blue,black);
+    }
+    
+    
+    nav ul li{
+        display: inline;
+        margin-left: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: azure;
+        font-size: 1.5em;
+        background:radial-gradient(red white, black);
+    }
+    nav ul li :hover{
+        border:2px solid white ;
+    }
+    nav ul li:last-of-type{
+        margin-left: 550px;
+    }
+    nav ul li:nth-child(4n){
+        margin-left: 550px;
+    }
+    #main field{
+    
+
+    height: 200px;
+   width:90%;
+   margin-left: 50px;
+   float: left;
+   color:white;
+background:radial-gradient(yellow,#f06d06,pink,blue);
+}
+main field marquee{
+    font-size: large;
+}
